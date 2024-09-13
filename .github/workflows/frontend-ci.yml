@@ -32,3 +32,6 @@ jobs:
 
     - name: Run ESLint
       run: npx eslint src/
+
+    - name: Run Dependency Scan
+      run: npm audit --audit-level=high
